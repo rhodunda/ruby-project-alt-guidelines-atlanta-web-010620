@@ -1,3 +1,6 @@
 require_relative '../config/environment'
+cli = CLI.new
 
-puts "hello world"
+
+  cli.welcome_message
+  cli.login_in
